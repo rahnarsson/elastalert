@@ -1,0 +1,3 @@
+pip install -U pip setuptools
+
+/usr/libexec/s2i/assemble
