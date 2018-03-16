@@ -1,2 +1,2 @@
 cd $ELASTALERT_HOME \
-    && python -m elastalert.elastalert --config /opt/elastalert/config.yml --verbose --rule rule-definition.yaml --start $(date --iso-8601)T00:00:00 --debug
+    && python -m elastalert.elastalert --config /etc/elastalert/config.yml --verbose --rule rule-definition.yaml --start $(date --iso-8601)T00:00:00 --debug
