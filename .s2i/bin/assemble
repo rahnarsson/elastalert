@@ -1,5 +1,5 @@
 pip install -U pip setuptools
-pip uninstall dateutil
+pip uninstall python-dateutil
 
 /usr/libexec/s2i/assemble
 
